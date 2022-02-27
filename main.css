@@ -1,0 +1,768 @@
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .main {
+            margin: 0px 100px;
+        }
+        /***********************************************************************************************
+        ****************************************** Start The Nav Bar ***********************************
+        ***********************************************************************************************/
+        .nav {
+            background-color: #a2a2a444;
+            padding: 7px;
+            display: flex;
+        }
+
+        .nav .fa-fw a:hover {
+            color: red;
+        }
+
+        .nav a {
+            display: flex;
+            justify-content: space-between;
+            
+            color: rgba(0, 0, 0, 0.815);
+            text-decoration: none;
+        }
+
+        .nav .fa-envelope {
+            padding-left: 30px;
+            padding-top: 3px;
+            color: rgba(0, 0, 255, 0.76);
+            font-size: 13px;
+        }
+
+        .nav .fa-envelope:hover {
+            color: red;
+            transition: all 0.4s;
+        }
+
+        .nav .mail {
+            font-size: 13px;
+        }
+
+        .nav .mail:hover {
+            color: blue;
+            transition: all 0.4s;
+        }
+        
+        .nav .fa-phone {
+            margin-left: 30px;
+            padding-top: 3px;
+            color: rgb(0, 0, 255.76);
+            font-size: 13px;
+        }
+        .nav .ph {
+            font-size: 13px;
+        }
+        .nav .fa-phone:hover {
+            color: red;
+            transition: all 0.4s;
+        }
+        .nav .ph:hover {
+            color: blue;
+            transition: all 0.4s;
+        }
+        .nav .fa-facebook {
+            margin-left: 600px;
+        }
+        .nav .four {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 30px;
+            color: rgba(0, 0, 0, 0.815);
+        }
+        .nav .four a:hover {
+            color: blue;
+            transform: scale(1.1);
+            transition: all 0.5s;
+        }
+        .nav i {
+            padding: 0px 7px;
+        }
+        .four span {
+            height: 15px;
+            border: 0.5px solid rgba(0, 0, 0, 0.37);
+            margin: 0px 20px;
+        }
+        /***********************************************************************************************
+        ******************************************* End The Nav Bar ************************************
+        ***********************************************************************************************/
+
+        
+        /**********************************************************************************************
+        ***************************************** Start The Header Part *******************************
+        **********************************************************************************************/
+        .header {
+            position: relative;
+            height: 60px;
+            
+        }
+        .header ul {
+            position: absolute;
+            top: 18px;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 37%;
+            margin: auto 0px auto 670px;
+            
+        }
+        .header h3 {
+            margin-left: 40px;
+            position: absolute;
+            top: 16px;
+        }
+        .header h3 span {
+            color: blue;
+        }
+        .header ul li:hover {
+            
+            color: blue;
+            transform: scale(1.2); 
+            transform: rotate(5deg);
+            transition: all 0.5s;
+            font-weight: bold;
+        }
+        /**********************************************************************************************
+        ******************************************* End The Header Bar ********************************
+        **********************************************************************************************/
+
+
+        /**********************************************************************************************
+        *************************************** Start The Main Background *****************************
+        **********************************************************************************************/
+        .bg {
+            background-image: url(img/bg_image_1.jpg);
+            height: 600px;
+            background-size: cover;
+            opacity: 0.9;
+            margin: 0px -100px;
+        }
+        .bg .text {
+            text-align: center;
+            padding-top: 230px;
+            background-color: rgba(26, 23, 54, 0.212);
+            height: 370px;
+        }
+        .bg .text h1 {
+            margin: 15px 0px;
+        }
+        .bg .text button {
+            padding: 8px 12px;
+            background-color: transparent;
+            border: 1px solid rgb(110, 108, 108);
+            border-radius: 10px;
+        }
+        .bg .text button:hover {
+            background-color: cadetblue;
+            color: white;
+            transition: all 0.4s;
+            padding: 8px 19px;
+        }
+        /**********************************************************************************************
+        ***************************************** End The Main Background *****************************
+        **********************************************************************************************/
+        
+        
+        /**********************************************************************************************
+        ****************************************** Start About Us Part ********************************
+        **********************************************************************************************/
+        .about {
+            display: flex;
+            height: 400px;
+            width: 100%;
+            margin: 80px 0px;
+            justify-content: space-evenly;
+            
+        }
+        .about .explain {
+            width: 43%;
+            height: 100%;
+            margin-top: 20px;
+        }
+        .about .explain h2 {
+            width: 70%;
+            padding: 20px 0px 15px 0px;
+        }
+        .about .pic {
+            
+            width: 35%;
+            height: 70%;
+            background-size: cover;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0 100%);
+        }
+        .about .pic figcaption {
+            text-align: center;
+            padding-top: 100px;
+        }
+        .about .explain h5 {
+            color: rgba(0, 0, 0, 0.295);
+            margin-top: -10px;
+        }
+        .about .explain .pp {
+            color: rgba(0, 0, 0, 0.411);
+        }
+        .about .explain .btnread {
+            padding: 9px 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+            color: white;
+            background-color: rgba(0, 0, 255, 0.856);
+        }
+        .about .explain .btnread:hover {
+            background-color: cadetblue;
+            color: white;
+            transition: all 0.4s;
+            padding: 8px 19px;
+        }
+        .about .explain .proff {
+            color: blue;
+        }
+        /**********************************************************************************************
+        ******************************************* End About Us Part *********************************
+        **********************************************************************************************/
+        
+        
+        /**********************************************************************************************
+        ****************************************** Start Our Services Part ****************************
+        **********************************************************************************************/
+        .ourservices {
+            height: 100px;
+            text-align: center;
+            width: 50% auto;
+            margin-top: -70px;
+        }
+        .ourservices h2 {
+            margin-top: 20px;
+            color: black;
+        }
+        .ourservices h5 {
+            color: rgba(0, 0, 0, 0.295);
+        }
+        .icons h4 {
+            margin-top: 15px;
+        }
+        .icons .awl {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .icons .awl .web {
+            width: 100%;
+            text-align: center;
+        }
+        .icons .awl .web img {
+            height: 45px;
+        }
+        
+        .icons .tany {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 45px;
+        }
+        .icons .tany .webb {
+            width: 100%;
+            text-align: center;
+        }
+        .icons .tany .webb img {
+            height: 45px;
+        }
+        .icons .awl .web:hover img {
+            transform: scale(1.3);
+            transition: all 1s;
+        }
+        .icons .tany .webb:hover img {
+            transform: scale(1.3);
+            transition: all 1s;
+        }
+        /**********************************************************************************************
+        ****************************************** End Our Services Part ******************************
+        **********************************************************************************************/
+        
+        
+        /**********************************************************************************************
+        ******************************************* Start Our Team Part *******************************
+        **********************************************************************************************/
+        .ourteam {
+            height: 100px;
+            text-align: center;
+            width: 50% auto;
+            margin-top: 170px;
+        }
+        .ourteam h2 {
+            margin-top: 20px;
+            color: black;
+        }
+        .ourteam h5 {
+            color: rgba(0, 0, 0, 0.295);
+        }
+        .ourteampics {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .ourteampics img {
+            height: 300px;
+            width: 250px;
+            border-radius: 10px;
+            
+        }
+        .ourteampics h4 {
+            margin: 12px 0px;
+        }
+        .ourteampics h6 {
+            margin-bottom: 12px;
+            color: rgba(0, 0, 0, 0.349);
+        }
+        .ourteampics button {
+            margin: 0px 7px;
+            padding: 4px;
+            border-radius: 5px;
+            border: 0.1px;
+            color: rgba(30, 30, 44, 0.74);
+            background-color: rgba(0, 0, 0, 0.068);
+        }
+        .ourteampics button:hover {
+            transform: scale(1.2);
+            transition: all 1s;
+            color: blue;
+        }
+        /**********************************************************************************************
+        ******************************************* End Our Team Part *********************************
+        **********************************************************************************************/
+        
+        
+        /**********************************************************************************************
+        ******************************************* Start Portfolio Part ******************************
+        **********************************************************************************************/
+        .portfolio {
+            margin-top: 170px;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .portfolio .textt {
+            margin-left: 40px;
+        }
+        .portfolio .textt h5{
+            color: rgba(0, 0, 0, 0.295);
+            margin-bottom: 15px;
+        }
+        .portfolio .btn .btnbrowser {
+            padding: 9px 25px;
+            margin-right: 40px;
+            border-radius: 6px;
+            border: 1px solid;
+            color: blue;
+            background: linear-gradient(to right, blue 50%, white 50%);
+            background-position: right;
+            background-size: 200% 100%;
+            transition: all 1s;
+        }
+        .portfolio .btn .btnbrowser:hover {
+            background-position: left;
+            color: white;
+        }
+        .portfoliopics {
+            margin-top: 50px;
+        }
+        .portfoliopics .firstline {
+            display: flex;
+            justify-content: space-around;
+            width: 100% auto;
+        }
+        .portfoliopics .firstline img {
+            text-align: center;
+            width: 270px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .portfoliopics .secondline {
+            display: flex;
+            justify-content: space-around;
+            width: 100% auto;
+            margin-top: 40px;
+        }
+        .portfoliopics .secondline img {
+            text-align: center;
+            width: 270px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .portfoliopics img:hover {
+            transform: scale(1.1);
+            transition: all 1s;
+        }
+        /**********************************************************************************************
+        ******************************************* End Portfolio Part ********************************
+        **********************************************************************************************/
+        
+        
+        /**********************************************************************************************
+        ******************************************* Start Persons Part ********************************
+        **********************************************************************************************/
+        .persons {
+            display: flex;
+            justify-content: space-around;
+            width: 100% auto;
+            margin-top: 170px;
+        }
+        .persons .firth, .secondth, .third {
+            background-color: rgba(136, 136, 136, 0.082);
+            padding: 15px;
+            border-radius: 10px;
+            height: 180px;
+            width: 320px;
+            
+        }
+        .persons img{
+            height: 40px;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+        .persons p {
+            width: 300px;
+            text-align: start;
+            font-size: 15px;
+            margin-left: 15px;
+            margin-top: 12px;
+            color: rgba(0, 0, 0, 0.466);
+        }
+        .persons  .info {
+            display: flex;
+        }
+        .persons .info .txx {
+            margin-top: 25px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        .persons .info .txx h6 {
+            margin-top: 4px;
+            color: rgba(0, 0, 0, 0.404);
+        }
+        .persons .firth:hover {
+            transform: scale(0.9);
+            transition: all 1s;
+        }
+        .persons .secondth:hover {
+            transform: scale(0.9);
+            transition: all 1s;
+        }
+        .persons .third:hover {
+            transform: scale(0.9);
+            transition: all 1s;
+        }
+        /**********************************************************************************************
+        ******************************************* End Person Part ***********************************
+        **********************************************************************************************/
+
+
+        /**********************************************************************************************
+        ******************************************* Start News Part ***********************************
+        **********************************************************************************************/
+        .news {
+            height: 100px;
+            text-align: center;
+            width: 50% auto;
+            margin-top: 170px;
+        }
+        .news h2 {
+            margin-top: 20px;
+            color: black;
+        }
+        .news h5 {
+            color: rgba(0, 0, 0, 0.295);
+        }
+        .readnews {
+            display: flex;
+            justify-content: space-around;
+            width: 100% auto;
+            margin: 20px auto;
+            height: 200px;
+        }
+        .readnews img {
+            height: 40px;
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+        .readnews .newinfo {
+            display: flex;
+        }
+        .readnews h6 {
+            color: rgba(0, 0, 0, 0.452);
+            margin-top: 4px;
+        }
+        .readnews .what {
+            margin-top: 30px;
+        }
+        .readnews p {
+            margin: 15px 0px;
+            color: rgba(0, 0, 0, 0.445);
+            font-size: 15px;
+        }
+        .readnews .awldiv, .tanydiv, .taltdiv, .rabediv {
+            background-color: transparent;
+            height: 240px;
+            padding: 25px;
+            border-radius: 10px;
+            border: 2px solid rgba(0, 0, 0, 0.089);
+        }
+        .readnews .awldiv:hover {
+            transform: rotate(10deg);
+            transition: all 2s;
+        }
+        .readnews .tanydiv:hover {
+            transform: rotate(10deg);
+            transition: all 2s;
+        }
+        .readnews .taltdiv:hover {
+            transform: rotate(-10deg);
+            transition: all 2s;
+        }
+        .readnews .rabediv:hover {
+            transform: rotate(-10deg);
+            transition: all 2s;
+        }
+        .readnews .what {
+            font-size: 15px;
+        }
+
+        .readnews .btnread {
+            margin-top: 60px;
+            color: rgba(0, 0, 255, 0.774);
+            font-size: 18px;
+        }
+        .viewmore {
+            padding: 10px 31px;
+            margin-top: 130px;
+            margin-left: 560px;
+            border-radius: 6px;
+            border: 1px solid;
+            color: white;
+            background: linear-gradient(to bottom, white 50%, rgba(0, 0, 255, 0.829) 50%);
+            background-position: bottom;
+            background-size: 100% 200%;
+            transition: all 1s;
+        }
+        .viewmore:hover {
+            background-position: top;
+            color: blue;
+        }
+        /**********************************************************************************************
+        ******************************************* End News Part *************************************
+        **********************************************************************************************/
+
+
+        /**********************************************************************************************
+        ******************************************* End About Us Part *********************************
+        **********************************************************************************************/
+
+
+        /**********************************************************************************************
+        ********************************************* Start The Form **********************************
+        **********************************************************************************************/
+        .stay {
+            height: 100px;
+            text-align: center;
+            width: 50% auto;
+            margin-top: 170px;
+        }
+        .stay h2 {
+            margin-bottom: 15px;
+        }
+        .stay h5 {
+            color: rgba(0, 0, 0, 0.438);
+        }
+        .stay span {
+            color: rgba(0, 0, 255, 0.753);
+        }
+        .stayform {
+            margin: 20px auto;
+        }
+        .stayform label {
+            display: block;
+            margin-left: 80px;
+            margin-bottom: 15px;
+        }
+        .stayform input {
+            background-color: rgba(128, 128, 128, 0.096);
+            
+        }
+        .stayform .namewemail {
+            display: flex;
+            width: 100% auto;
+        }
+        .stayform .namewemail .name input {
+            height: 40px;
+            margin: 0px 150px 25px 80px;
+            width: 370px;
+            border-radius: 10px;
+            border: .5px solid;
+            text-indent: 20px;
+            padding: 4px;
+        }
+        .stayform .namewemail .name {
+            margin-left: 100px;
+        }
+        .stayform .namewemail .email input {
+            height: 40px;
+            width: 370px;
+            margin-left: 15px;
+            border-radius: 10px;
+            border: .5px solid;
+            text-indent: 20px;
+            padding: 4px;
+            
+        }
+        .stayform .sub {
+            margin-left: 100px;
+        }
+        .stayform .sub input {
+            height: 40px;
+            margin: 0px 100px 25px 77px;
+            width: 840px;
+            border-radius: 10px;
+            border: .5px solid;
+            text-indent: 20px;
+            padding: 4px;
+        }
+        .stayform .message {
+            margin-left: 100px;
+        }
+        .stayform .message input {
+            height: 250px;
+            margin: 0px 100px 0px 76px;
+            width: 840px;
+            border-radius: 10px;
+            border: .5px solid;
+            text-indent: 20px;
+            padding: 4px;
+        }
+        .stayform .email label {
+            margin-left: 19px;
+        }
+        .stayform .email {
+            margin-left: -80px;
+        }
+        .btns button {
+            padding: 9px 55px;
+            margin-left: 175px;
+            margin-top: 40px;
+            border-radius: 6px;
+            border: 1px solid;
+            color: blue;
+            background: linear-gradient(to left, rgba(0, 0, 255, 0.863) 50%, white 50%);
+            background-position: left;
+            background-size: 200% 100%;
+            transition: all 1s;
+        }
+        .btns button:hover {
+            background-position: right;
+            color: white;
+        }
+        /**********************************************************************************************
+        ******************************************* End The Form **************************************
+        **********************************************************************************************/
+        
+        .swar {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 150px;
+        }
+        .swar img {
+            height: 30px;
+        }
+
+        /**********************************************************************************************
+        ******************************************* Start The Footer **********************************
+        **********************************************************************************************/
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px -100px 0px -100px;
+            padding: 80px;
+            background-color: #282b3a;
+            color: white;
+            height: 125px;
+            
+        }
+        .footer .logo span {
+            color: blue;
+        }
+        .footer h6 {
+            margin: 25px auto;
+            color: rgba(255, 255, 255, 0.411);
+            font-size: 12px;
+        }
+        .footer h6:hover {
+            color: rgb(173, 146, 146);
+            transform: scale(1.1);
+            transition: all 1s;
+        }
+        .footer input {
+            margin-top: 25px;
+        }
+        .footer input {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px;
+        }
+        .footer .sss {
+            display: block;
+            margin-top: 20px;
+        }
+        .footer button {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 1px;
+        }
+        .footer button:hover {
+            color: white;
+            background-color: rgba(0, 0, 255, 0.788);
+        }
+        .copy {
+            margin: 0px -100px 0px -100px;
+            display: flex;
+            justify-content: space-around;
+            padding: 18px 15px 15px 15px;
+            background-color: #282b3a;
+            color: white;
+        }
+        .copy .copyright {
+            margin-top: 5px;
+        }
+        .copy .copyright span {
+            color: rgb(153, 95, 124);
+            margin-left: 10px;
+        }
+        .copy .iconss a{
+            color: white;
+            background-color: rgba(255, 255, 255, 0.103);
+            margin: 0px 5px;
+            padding: 7px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .copy .iconss a:hover {
+            color: rgba(0, 0, 255, 0.774);
+        }
+        .line {
+            border: .1px solid rgba(0, 0, 0, 0.733);
+            margin-left: -100px;
+            margin-right: -100px;
+        }
+        /**********************************************************************************************
+        ******************************************* End The Footer ************************************
+        **********************************************************************************************/
